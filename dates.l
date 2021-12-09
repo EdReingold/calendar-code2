@@ -1,3 +1,15 @@
+;;;; The Functions (code, comments, and definitions) contained in this
+;;;; file (the "Program") were written by Edward M. Reingold and Nachum
+;;;; Dershowitz (the "Authors"), who retain all rights to them except as
+;;;; granted in the License and subject to the warranty and liability
+;;;; limitations listed therein.  These Functions are explained in the Authors'
+;;;; book, "Calendrical Calculations", 4th ed. (Cambridge University
+;;;; Press, 2016), and are subject to an international copyright.
+;;;;
+;;;; Licensed under the Apache License, Version 2.0 <LICENSE or
+;;;; https://www.apache.org/licenses/LICENSE-2.0>.
+
+
 (or (load "calendar.fasl" :if-does-not-exist nil)
     (load "calendar.fas" :if-does-not-exist nil)
     (load "calendar.sbin" :if-does-not-exist nil)
